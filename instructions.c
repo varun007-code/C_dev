@@ -13,6 +13,7 @@ int main(void)
     printf("String Address: %p\n\n", (void *)str);
 
     unsigned char *code = (unsigned char *)main;
+    printf("the main function: %p\n",(unsigned char *)&code);
 
     csh handle;
     cs_insn *insn;
