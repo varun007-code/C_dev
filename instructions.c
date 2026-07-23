@@ -11,6 +11,7 @@ int main(void)
 
     printf("\nString: %s", str);
     printf("String Address: %p\n\n", (void *)str);
+    printf("---------------------------------\n");
 
     unsigned char *code = (unsigned char *)main;
     printf("the main function: %p\n",(unsigned char *)&code);
