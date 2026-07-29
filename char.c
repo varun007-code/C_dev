@@ -1,15 +1,13 @@
-// C program to show unsigned char
 
 #include <stdio.h>
 
 int main()
 {
     int c;
-    c = getchar();
-    while(c != EOF)
+    printf("%d\n", EOF);
+    while((c=getchar()) != EOF)
     {
         putchar(c);
-        c = getchar();
     }
     return 0;
 }
