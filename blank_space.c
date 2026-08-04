@@ -22,5 +22,6 @@ int main()
             pervious_blank = 0;
         }
     }
+    printf("\n");
     return 0;
 }
