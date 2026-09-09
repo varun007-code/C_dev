@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int power(int m, int n);
+int power(int base, int n);
 
 int main(void)
 {
